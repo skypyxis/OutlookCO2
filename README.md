@@ -43,13 +43,13 @@ CO2 concentration **variation since the year 1800**.
 
 ## Signature Example
 ```
-This week's CO2 concentration: {CO2-D} ppm  
+Today's CO2 concentration: {CO2-D} ppm  
 1 | 10 years ago: {CO2-D-1Y} | {CO2-W-10Y} ppm
 ```
 
 After running **OutlookCO2.exe** the signature content will be updated with the current measured values. Example:
 ```
-This week's CO2 concentration: 407.53 ppm  
+Today's CO2 concentration: 407.53 ppm  
 1 | 10 years ago: 405.62 | 384.73 ppm
 ```
 
