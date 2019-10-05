@@ -1,6 +1,6 @@
 Do you wish to display up-to-date CO2 levels on your Outlook email signature? I got tired of updating the values every other day and wrote a tool for that. Please check if it can help you too.  
 
-Science advisers on the Intergovernmental Panel on Climate Change have estimated a CO2 concentration of no more than 450 parts per million for a 2 degrees temp raise or 430 ppm for 1.5 degrees.  
+Science advisers on the Intergovernmental Panel on Climate Change have estimated a CO2 concentration of no more than 450 parts per million for a 2 degrees temperature raise or 430 ppm for 1.5 degrees.  
 
 # OutlookCO2
 This tool updates your *Microsoft Outlook (\*)* HTML signature with updated CO2 atmospheric concentration levels as recorded in Mauna Loa Observatory.  
