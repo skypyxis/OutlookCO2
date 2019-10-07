@@ -24,7 +24,7 @@ namespace OutlookCO2
                 Console.WriteLine($"Parsing file {file}.");
                 try
                 {
-                    string content = File.ReadAllText(file);
+                    string content = File.ReadAllText(file, CodePagesEncodingProvider.Instance.GetEncoding(1252));
                     bool found = false;
                     foreach (var item in data)
                     {
@@ -45,7 +45,7 @@ namespace OutlookCO2
                     {
                         // Make files writable
                         File.SetAttributes(file, FileAttributes.Normal);
-                        File.WriteAllText(file, content);
+                        File.WriteAllText(file, content, Encoding.UTF8);
                     }
                 }
                 catch (Exception ex)
