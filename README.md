@@ -54,13 +54,13 @@ CO2 concentration **variation since the year 1800**.
 
 ## Signature Example
 ```
-Today's CO2 concentration: {CO2-D} ppm  
-1 year ago: {CO2-D-1Y} | 10 years ago: {CO2-W-10Y} ppm
+Today's CO2 atmospheric concentration: {CO2-D} ppm  
+1 year ago: {CO2-D-1Y} ppm | 10 years ago: {CO2-W-10Y} ppm
 ```
 
 After running **OutlookCO2.exe** the signature content will be updated with the current measured values. Example:
 ```
-Today's CO2 concentration: 407.53 ppm  
+Today's CO2 atmospheric concentration: 407.53 ppm  
 1 year ago: 405.62 ppm | 10 years ago: 384.73 ppm
 ```
 
