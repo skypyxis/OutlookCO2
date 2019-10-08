@@ -40,7 +40,7 @@ namespace OutlookCO2
                 dataSource1,
                 @"(?s)Daily CO.*?([\d\.]*)\sppm.*?([\d\.]*)\sppm");
             data.Add("CO2-D", dataDaily.Length > 1 ? dataDaily[1] : null);
-            data.Add("CO2-D-1Y", dataDaily.Length > 1 ? dataDaily[2] : null);
+            data.Add("CO2-D-1Y", dataDaily.Length > 2 ? dataDaily[2] : null);
 
             Console.WriteLine($"Getting data from {dataSource2}");
             /* #      Start of week      CO2 molfrac           (-999.99 = no data)  increase

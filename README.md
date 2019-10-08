@@ -1,11 +1,19 @@
-Do you wish to display up-to-date CO2 levels on your Outlook email signature? I got tired of updating the values every other day and wrote a tool for that. Please check if it can help you too.  
+- Do you know which is the current CO2 atmospheric concentration level?  
 
-Science advisers on the Intergovernmental Panel on Climate Change have estimated a CO2 concentration of no more than 450 parts per million for a 2 degrees temperature raise or 430 ppm for 1.5 degrees.  
+- Did you know science advisers on the Intergovernmental Panel on Climate Change have estimated a CO2 concentration of no more than 450 parts per million for a 2 degrees temperature raise and 430 ppm for 1.5 degrees?  
+
+- Would you like to track these levels and who knows, even raise awareness about it by sharing the data on your email signature?  
+
+If you think you'd like to give it a try this tool might help you – it updates your Outlook email signature with up to date CO2 metrics.  
 
 # OutlookCO2
 This tool updates your *Microsoft Outlook (\*)* HTML signature with updated CO2 atmospheric concentration levels as recorded in Mauna Loa Observatory.  
 
 A ready to execute x64 .exe is available for **download here**: http://bit.ly/OutlookCO2  
+
+**Important:** If Windows don't let you run the app please check OutlookCO2.exe properties and make sure the **Unblock** check box is ticked. This is a Windows security feature for unsigned downloaded files.  
+
+You can verify the integrity of the .zip file against the following hash codes:  
 ```
 CRC-32: 7EB04300
 SHA-1: 20D7600A659E05DF2A72D2EB131001A8BE57483F
@@ -70,6 +78,11 @@ The basic command syntax to create the scheduled task is:
 
 To schedule an automatic execution every day at 12:00 run this command *(assuming OutlookCO2.exe and OutlookCO2silentrun.vbs are placed on C:\Program Files folder)*  
 ```SCHTASKS /CREATE /SC DAILY /TN "MyTasks\OutlookCO2 Update" /TR "wscript \"C:\Program Files\OutlookCO2silentrun.vbs\"" /ST 12:00```
+
+Please schedule the task to execute at a random time, not necessarily 12:00, so that it doesn't run at the same time as everybody on your timezone (flooding the source feeds with simultaneous requests).  
+
+Also make sure it runs at a time your computer is on.  
+*You can specify it to "Run as soon as possible after a scheduled start is missed" on the windows GUI not but not using this command line instruction.*  
 
 # Notice
 The source data is extracted from freely available to the public scientific feeds.
