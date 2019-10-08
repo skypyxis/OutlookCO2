@@ -1,8 +1,8 @@
-- Do you know which is the current CO2 atmospheric concentration level?  
+\- Do you know which is the current CO2 atmospheric concentration level?  
 
-- Did you know science advisers on the Intergovernmental Panel on Climate Change have estimated a CO2 concentration of no more than 450 parts per million for a 2 degrees temperature raise and 430 ppm for 1.5 degrees?  
+\- Did you know science advisers on the Intergovernmental Panel on Climate Change have estimated a CO2 concentration of no more than 450 parts per million for a 2 degrees temperature raise and 430 ppm for 1.5 degrees?  
 
-- Would you like to track these levels and who knows, even raise awareness about it by sharing the data on your email signature?  
+\- Would you like to track these levels and who knows, even raise awareness about it by sharing the data on your email signature?  
 
 If you think you'd like to give it a try this tool might help you – it updates your Outlook email signature with up to date CO2 metrics.  
 
@@ -55,13 +55,13 @@ CO2 concentration **variation since the year 1800**.
 ## Signature Example
 ```
 Today's CO2 concentration: {CO2-D} ppm  
-1 | 10 years ago: {CO2-D-1Y} | {CO2-W-10Y} ppm
+1 year ago: {CO2-D-1Y} | 10 years ago: {CO2-W-10Y} ppm
 ```
 
 After running **OutlookCO2.exe** the signature content will be updated with the current measured values. Example:
 ```
 Today's CO2 concentration: 407.53 ppm  
-1 | 10 years ago: 405.62 | 384.73 ppm
+1 year ago: 405.62 ppm | 10 years ago: 384.73 ppm
 ```
 
 # Automation
@@ -82,6 +82,7 @@ To schedule an automatic execution every day at 12:00 run this command *(assumin
 Please schedule the task to execute at a random time, not necessarily 12:00, so that it doesn't run at the same time as everybody on your timezone (flooding the source feeds with simultaneous requests).  
 
 Also make sure it runs at a time your computer is on.  
+
 *You can specify it to "Run as soon as possible after a scheduled start is missed" on the windows GUI not but not using this command line instruction.*  
 
 # Notice
