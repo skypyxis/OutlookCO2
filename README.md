@@ -1,13 +1,11 @@
+# OutlookCO2
 \- Do you know which is the current CO2 atmospheric concentration level?  
 
 \- Did you know science advisers on the Intergovernmental Panel on Climate Change have estimated a CO2 concentration of no more than 450 parts per million for a 2 degrees temperature raise and 430 ppm for 1.5 degrees?  
 
 \- Would you like to track these levels and who knows, even raise awareness about it by sharing the data on your email signature?  
 
-If you think you'd like to give it a try this tool might help you – it updates your Outlook email signature with up to date CO2 metrics.  
-
-# OutlookCO2
-This tool updates your *Microsoft Outlook (\*)* HTML signature with updated CO2 atmospheric concentration levels as recorded in Mauna Loa Observatory.  
+If you think you'd like to give it a try this tool might help you – it updates your *Microsoft Outlook (\*)* HTML signature with up to date CO2 metrics as recorded in Mauna Loa Observatory.  
 
 A ready to execute x64 .exe is available for **download here**: http://bit.ly/OutlookCO2  
 
@@ -24,10 +22,8 @@ Note: This tool does not change plain text (txt) or rich text (rtf) signature fi
 
 *(\*) Microsoft Outlook for Windows only.*
 
-# Usage
-1. Create an Outlook email signature ([learn how here](https://support.office.com/en-us/article/create-and-add-a-signature-to-messages-8ee5d4f4-68fd-464a-a1c1-0e1c80bb27f2 "Create and add a signature to messages")) and use the following replacement tokens in your text.  
-
-All values are expressed in parts per million (ppm).
+## Usage
+1. Create an Outlook email signature ([learn how here](https://support.office.com/en-us/article/create-and-add-a-signature-to-messages-8ee5d4f4-68fd-464a-a1c1-0e1c80bb27f2 "Create and add a signature to messages")) and use the following replacement tokens in your text. All values are expressed in parts per million (ppm).
 
 * {CO2-D}         
 **Daily CO2** atmospheric concentration.
@@ -52,7 +48,7 @@ CO2 concentration **variation since the year 1800**.
 
 2. Run the **OutlookCO2.exe** tool once a day to replace/update the expressions with the measured values.
 
-## Signature Example
+### Signature Example
 ```
 Today's CO2 atmospheric concentration: {CO2-D} ppm  
 1 year ago: {CO2-D-1Y} ppm | 10 years ago: {CO2-W-10Y} ppm
@@ -64,7 +60,7 @@ Today's CO2 atmospheric concentration: 407.53 ppm
 1 year ago: 405.62 ppm | 10 years ago: 384.73 ppm
 ```
 
-# Automation
+## Automation
 Instead of manually running **OutlookCO2.exe** an automated execution can be scheduled as a Windows Scheduled task.
 
 To prevent a command window from appearing when running the scheduled task on Windows 10 we should setup the execution of a vbs script and not the execution of OutlookCO2.exe file.
@@ -85,7 +81,7 @@ Also make sure it runs at a time your computer is on.
 
 *You can specify it to "Run as soon as possible after a scheduled start is missed" on the windows GUI not but not using this command line instruction.*  
 
-# Notice
+## Notice
 The source data is extracted from freely available to the public scientific feeds.
 
 NOAA Earth System Research Laboratory Global Monitoring Division  
