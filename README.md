@@ -81,6 +81,14 @@ Also make sure it runs at a time your computer is on.
 
 *You can specify it to "Run as soon as possible after a scheduled start is missed" on the windows GUI not but not using this command line instruction.*  
 
+## Why it matters
+
+https://climate.nasa.gov/vital-signs/carbon-dioxide/
+
+https://350.org/science/
+
+https://www.un.org/en/sections/issues-depth/climate-change/
+
 ## Notice
 The source data is extracted from freely available to the public scientific feeds.
 
