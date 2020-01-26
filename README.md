@@ -13,9 +13,9 @@ A ready to execute x64 .exe is available for **download here**: http://bit.ly/Ou
 
 You can verify the integrity of the .zip file against the following hash codes:  
 ```
-CRC-32: 7EB04300
-SHA-1: 20D7600A659E05DF2A72D2EB131001A8BE57483F
-SHA-256: B5AE32A9BB0081397B3850AA44F96CF758059034C502CF04F1F0012BB8BAAEB1
+CRC-32: FE278474
+SHA-1: 77C0910AB9EBBE10BEFC39D9D03A963206FFF798
+SHA-256: 6DA5B7F92F0D9B460BD53D97CF134E3EE10E437C2E6563675BF820111BD6BF29
 ```
 
 Note: This tool does not change plain text (txt) or rich text (rtf) signature files.
